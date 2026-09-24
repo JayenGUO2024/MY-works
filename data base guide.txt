@@ -1,0 +1,55 @@
+Login screen
+Dummy login screen is also fine
+Maybe a fake registration page also
+We can be honest about the fake login
+
+
+—User
+id - UUID
+Email
+name
+password
+
+
+—Review
+Id
+Text - string
+DeliveryText- string
+QualityText
+PriceText
+PackagingText
+ServiceText- string
+DeliverySentiment- string
+QualitySentiment- string
+PriceSentiment- string
+PackagingSentiment- string
+ServiceSentiment- string
+Product_id - UUID
+
+
+
+—Product
+Id - UUID
+Category - Laptop | mouse | keyboard | headphones
+productName - MacBook Air | Sony xm1000 | Logitech G102
+
+
+5c
+4p
+
+20 item
+20 *20
+400
+
+
+User Interface idea:
+A new tab where user can select pre-existing category and add a product there. Also an upload button to upload reviews for that product. 
+In the Insight button, add the review analytics into pre-existing product
+
+
+
+Idea:
+Product based analysis chart for each aspect (the user can select an aspect and he will see the info of all the products for that aspect)
+
+User Feedback option：
+fixed prompt for user to improve the layout
